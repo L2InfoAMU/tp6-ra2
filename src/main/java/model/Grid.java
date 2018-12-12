@@ -134,7 +134,7 @@ public class Grid implements Iterable<Cell> {
     private int countAliveNeighbours(int rowIndex, int columnIndex) {
         List<Cell> listCell= getNeighbours(rowIndex, columnIndex);
         int vivantes=0;
-        for(Cell cell:listCell)              //  (type_de_l'objet_parcouru nom_de_l'objet_à_parocurir : nom_list)
+        for(Cell cell:listCell)              //  (type_de_l'objet_parcouru nom_de_l'objet_à_parocur ir : nom_list)
         {
             if( cell.isAlive())
                 vivantes++;
